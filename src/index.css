@@ -3,40 +3,43 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
-  scroll-behavior: smooth;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Manrope', sans-serif;
+	scroll-behavior: smooth;
 }
 
 :root {
-  --primary: #1b5bf7;
-  --second: #464359;
-  --bg: #f4f7ff;
-  --card: #e0e8ff;
+	--primary: #1b5bf7;
+	--second: #464359;
+	--bg: #f4f7ff;
+	--card: #e0e8ff;
 }
 
+.container {
+	padding-inline: 5%;
+}
 
 .title {
-  color: var(--primary);
-  font-size: 80px;
-  font-weight: 700;
-  padding-block: 60px;
+	color: var(--primary);
+	font-size: 80px;
+	font-weight: 700;
+	padding-block: 60px;
 }
 
 .text {
-  font-size: 28px;
-  color: var(--second);
-  line-height: 170%;
-  word-spacing: 3px;
+	font-size: 28px;
+	color: var(--second);
+	line-height: 170%;
+	word-spacing: 3px;
 }
 
 .Typewriter {
-  color: var(--primary);
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 130%;
-  margin-bottom: 20px;
+	color: var(--primary);
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 130%;
+	margin-bottom: 20px;
 }
